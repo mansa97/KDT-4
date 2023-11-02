@@ -1,0 +1,16 @@
+# Train/val/test
+train: ../C:\Users\User\practice\dobble_yolo
+val: C:\Users\User\practice\dobble_yolo
+
+nc: 1
+
+names: ['clown', 'dinosaur', 'dobble', 'dog',
+'dolphin', 'dragon', 'exclmation_mark', 'eye',
+'flower', 'ghost', 'hammer', 'heart',
+'horse', 'ice', 'igloo', 'key', 'kind',
+'ladybug', 'lightning', 'lip', 'lock',
+'maple', 'mark', 'moon', 'paints', 'pencil',
+'person', 'question_mark', 'scissors', 'sign',
+'skeleton', 'snow', 'snowman', 'spider', 'sun',
+'sunglasses', 'taeqeuk', 'the_treble_clef', 'tree',
+'turtle', 'water_drop', 'weg', 'zebra']

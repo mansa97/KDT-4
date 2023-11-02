@@ -1,0 +1,82 @@
+<!-- <link rel ='stylesheet' href="{{url_for('static',filename='bootstrap.min.css')}}"> -->
+
+{%extends 'base.html'%}
+{%block content%}
+
+<div class="container my-3">
+    <h2 class="border-bottom py-2">{{question.subject}}</h2>
+    <div class="card my-3">
+        <div class="card-body">
+            <div class="card-text" style="white-space: pre-line;">{{question.content}}</div>
+
+                <div class="d-flex justify-content-end">
+                    {%if question.modify_date%}
+                        <div> {{question.user.username}}</div>&nbsp;
+                        <div> {{question.modify_date|datetime}}</div>
+                    {%else%}
+                        <div> {{question.user.username}}</div>&nbsp;
+                        <div> {{question.create_date|datetime}}</div>
+                    {%endif%}
+                </div>
+                    {% if g.user == question.user%}
+                    <div class="my-3">
+                        <br>
+                        <a href="{{url_for('question.modify', question_id=question.id)}}"
+                        class="btn btn-sm btn-outline-success">수정</a>
+                        <a href="#" class="delete btn btn-sm btn-outline-danger"
+                        data-uri="{{url_for('question.delete', question_id=question.id)}}">삭제</a>
+                    </div>
+                    {%endif%}
+                
+                
+
+        </div>
+    </div>
+    <h5 class="border-bottom my-3 py-2">{{question.answer_set|length}} 개의 답변이 있습니다.</h5>
+    {%for answer in question.answer_set%}
+    <div class="card my-3">
+        <div class="card-body">
+            <div class="card-text" style="white-space: pre-line;">{{answer.content}}</div>
+            <div class="d-flex justify-content-end">
+                {%if answer.modify_date%}
+                    <div> {{answer.user.username}}</div>&nbsp;
+                    <div> {{answer.modify_date|datetime}}</div>
+                {%else%}
+                    <div> {{answer.user.username}}</div>&nbsp;
+                    <div> {{answer.create_date|datetime}}</div>
+                {%endif%}
+            </div>
+            {% if g.user == answer.user%}
+                <div class="my-3">
+                    <br>
+                    <a href="{{url_for('answer.modify', answer_id=answer.id)}}"
+                    class="btn btn-sm btn-outline-success">수정</a>
+                    <a href="#" class="delete btn btn-sm btn-outline-danger"
+                    data-uri="{{url_for('answer.delete', answer_id=answer.id)}}">삭제</a>
+                </div>
+            {%endif%}
+        </div>
+    </div>
+    {%endfor%}
+    <form action="{{url_for('answer.create',question_id=question.id)}}" method="post" class="my-3">
+        {{form.csrf_token}}
+
+        {% for field, errors in form.errors.items() %}
+        <div class="alert alert-danger" role="alert">
+            <strong>{{form[field].label}}</strong> : {{', '.join(errors)}}
+        </div>
+        {%endfor%}
+
+        <div class="form-group">
+            <textarea {% if not g.user %}disabled{%endif%}
+            name="content" id="content" class="form-control" rows="5"></textarea>
+        </div>
+        <br><input type="submit" value="답변등록" class="btn btn-primary">
+    </form>
+</div>
+{%endblock%}
+
+
+
+
+

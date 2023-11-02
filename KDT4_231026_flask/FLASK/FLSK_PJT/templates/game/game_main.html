@@ -1,0 +1,51 @@
+{%extends 'base.html'%}
+{%block content%}
+<body style="text-align: center;">
+    <h1 style="text-align: center; margin-top: 2%;">Enjoy Game</h1>
+    <p id="timer"><span id="remaining_time"></span></p>
+    <div class="container my-3">
+        <iframe frameborder="0" noresize="noresize" style='background: transparent; width: 100%; height:50%;'></iframe>
+
+        <div>
+            <br>
+            <h5 class="border-bottom my-3 py-2"> 점수 : {{score}}</h5>
+            <br>
+            <img src="{{url_for('static',filename=image_file[0])}}">
+            <img src="{{url_for('static',filename=image_file[1])}}">
+        </div>
+        <form method="post" class="post-form my-3" action="/game">
+            <div class="form-group">
+                <!-- <textarea name="answer" id="answer" class="form-control" rows="2"></textarea> -->
+                <input name="answer" id="answer" type="text" class="control" size="40" onkeypress="JavaScript_:press(this.form)" autofocus>
+            </div>
+            
+            <br><button type="submit" class="btn btn-primary">전송하기</button>
+        </form>
+    </div>
+    <script>
+        function updateRemainingTime() {
+            console.log("함수실행됨");
+            fetch('/game/remaining_time')
+            .then(response => response.json())
+            .then(data => {
+                let minutes = Math.floor(data.remaining_time_in_seconds / 60);
+                let seconds = Math.floor(data.remaining_time_in_seconds % 60);
+                if (seconds < 10 && seconds >= 0) {
+                    seconds = "0" + seconds;
+                }
+    
+                let remainingTimeElement = document.getElementById("remaining_time");
+                remainingTimeElement.innerText = `${minutes}:${seconds}`;
+                document.getElementById("remaining_time").innerText = minutes + ":" + seconds;
+                console.log(data);
+                if (seconds=='00'){
+                    location.href='/game/game_over';
+                }
+            })
+            setTimeout(updateRemainingTime, 1000);
+        }
+        setTimeout(updateRemainingTime, 1000);
+    </script>
+
+</body>
+{%endblock%}
