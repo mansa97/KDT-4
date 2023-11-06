@@ -4,4 +4,4 @@
 > - 개발기간: 2022.07.06-07.07
 > - Language : python
 
-> ![image](household_ledge_result.png)
+> ![image](result/household_ledge_result.png)
