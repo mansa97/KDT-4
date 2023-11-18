@@ -1,5 +1,5 @@
 ## 1주차
-![스크린샷 2023-07-28 084658.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/3a225707-922b-4f5f-9bab-e3d61ec97f52/5b7b592b-eafb-42d9-b8df-961441bf7af6/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_2023-07-28_084658.png)
+![Simpson Local](result/household_ledge_result.png)
 ## 🗒️ 세부 내용
 
 - **Python** 학습을 목표로 함
