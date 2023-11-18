@@ -8,7 +8,7 @@
 > python을 이용하여 가계부 프로그램 제작
 >- Language : Python
 >- Skill : Python
->- Link : [프로젝트 상세내용]()
+>- Link : [프로젝트 상세내용](https://github.com/mansa97/KDT-4/tree/main/KDT4_230707_python)
 <br>
 
 ## 2주차
