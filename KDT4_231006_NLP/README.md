@@ -33,8 +33,8 @@
 ----------------------------------------------------------
 
 ## ⚙️ 개발 환경
->- Language : Python
->- Library : Pandas, Keras, BeautifulSoup4
+- Language : Python
+- Library : Pandas, Keras, BeautifulSoup4
 ----------------------------------------------------------
 ## 📌 주요 내용
 
