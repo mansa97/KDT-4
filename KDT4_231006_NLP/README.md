@@ -36,6 +36,20 @@
 - Library : Pandas, Keras, BeautifulSoup4
 ----------------------------------------------------------
 ## 📌 주요 내용
+![슬라이드1](https://github.com/mansa97/KDT-4/assets/64315458/9e14fd53-9543-4a88-8110-b61873851cd0)
+![슬라이드2](https://github.com/mansa97/KDT-4/assets/64315458/da1b8f72-a752-4097-964f-22339b9d7371)
+![슬라이드3](https://github.com/mansa97/KDT-4/assets/64315458/c5068fa5-9cb2-41a6-9ce9-86eb519da89b)
+![슬라이드4](https://github.com/mansa97/KDT-4/assets/64315458/007140eb-4d11-4759-a608-1e056ceaf1f8)
+![슬라이드5](https://github.com/mansa97/KDT-4/assets/64315458/09950027-149b-4cb7-a6da-09f6500f1f6b)
+![슬라이드6](https://github.com/mansa97/KDT-4/assets/64315458/5f763cc0-d5fd-4dba-b978-93a700dcc7f3)
+![슬라이드7](https://github.com/mansa97/KDT-4/assets/64315458/b95e5b5e-f565-4d45-9465-f7e665ebb107)
+![슬라이드8](https://github.com/mansa97/KDT-4/assets/64315458/31cb79ec-f2e6-4217-890c-1915fb332876)
+![슬라이드9](https://github.com/mansa97/KDT-4/assets/64315458/21f886b5-e8b6-4c0e-9860-ae8289e7a904)
+![슬라이드10](https://github.com/mansa97/KDT-4/assets/64315458/d402138f-622c-4cc0-b893-7ea5303b224e)
+![슬라이드11](https://github.com/mansa97/KDT-4/assets/64315458/ca7a19c3-ae17-4947-821e-0a9130e2ef4d)
+![슬라이드12](https://github.com/mansa97/KDT-4/assets/64315458/0bcb3a8c-25ae-4cd6-86f4-198d8efdb34a)
+
+
 
 
 
