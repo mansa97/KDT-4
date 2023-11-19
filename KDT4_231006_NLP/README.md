@@ -33,8 +33,8 @@
 ----------------------------------------------------------
 
 ## ⚙️ 개발 환경
-- **Programming** : `Python 3.9`
-- **Framework** : `pandas 2.1.0` `matplotlib 3.7.2` `seaborn 0.12.2`  `numpy 1.24.3` `sklearn 1.3.2` 
+>- Language : Python
+>- Library : Pandas, Keras, BeautifulSoup4
 ----------------------------------------------------------
 ## 📌 주요 내용
 
