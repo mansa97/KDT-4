@@ -24,9 +24,12 @@
 - **Programming** : `PYTHON` 
 
 ----------------------------------------------------------
-## 📌 주요 내용
-
-![Simpson Local](result/household_ledge_result.png)
+## 📌 목업
+![슬라이드1](https://github.com/mansa97/KDT-4/assets/64315458/e5c21e37-9d43-4108-bd1a-0409d6b5a491)
+![슬라이드2](https://github.com/mansa97/KDT-4/assets/64315458/7dc0ca8a-962d-42ea-97dc-c165dd3c20e3)
+![슬라이드3](https://github.com/mansa97/KDT-4/assets/64315458/731491c9-2a25-4783-9752-b673a86528be)
+![슬라이드4](https://github.com/mansa97/KDT-4/assets/64315458/f49ef0d1-fb68-4bde-ab7f-c578d4dc2e34)
+![슬라이드5](https://github.com/mansa97/KDT-4/assets/64315458/0427290d-e48a-433d-9fba-64dd73f5bfb7)
 
 ----------------------------------------------------------
 
