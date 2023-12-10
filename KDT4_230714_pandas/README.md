@@ -34,8 +34,13 @@
 
 ----------------------------------------------------------
 ## 📌 주요 내용
-
-
+![output1](https://github.com/mansa97/KDT-4/assets/64315458/7076f8b2-8388-4c9c-9516-e2a82ddba6b9)
+![output2](https://github.com/mansa97/KDT-4/assets/64315458/ddb25bab-3444-4d3a-a2fd-8407d61a114f)
+![output3](https://github.com/mansa97/KDT-4/assets/64315458/5adcbf0c-2467-4587-bb87-46425e5b1b2b)
+![output4](https://github.com/mansa97/KDT-4/assets/64315458/cce57cc8-8eac-4b14-ba8f-96e9377cfded)
+![output5](https://github.com/mansa97/KDT-4/assets/64315458/0ab3075d-ad82-4f29-b46a-991865e82985)
+![output6](https://github.com/mansa97/KDT-4/assets/64315458/ecf17648-2635-4a52-b54d-7fdf1775cd48)
+![output7](https://github.com/mansa97/KDT-4/assets/64315458/ddcb5a6b-5783-47e3-8e08-4c7aad879df5)
 
 ----------------------------------------------------------
 
