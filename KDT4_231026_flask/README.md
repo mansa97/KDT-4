@@ -45,6 +45,19 @@
 
 ----------------------------------------------------------
 ## 📌 주요 내용
+![슬라이드1](https://github.com/mansa97/KDT-4/assets/64315458/c4cbec44-dfd7-477d-a958-b04bc0ef0396)
+![슬라이드2](https://github.com/mansa97/KDT-4/assets/64315458/58e3407b-e73c-4b7e-80e6-feed9f0dbf44)
+![슬라이드3](https://github.com/mansa97/KDT-4/assets/64315458/4b7544aa-34f5-4160-86d7-d1fe4fbd5f24)
+![슬라이드4](https://github.com/mansa97/KDT-4/assets/64315458/ebd8d27a-126f-458c-97e9-d3ae3cfedc67)
+![슬라이드5](https://github.com/mansa97/KDT-4/assets/64315458/1d316914-d16c-4a79-89ce-fcd157518ed9)
+![슬라이드6](https://github.com/mansa97/KDT-4/assets/64315458/4928155a-2374-4c48-9fc0-d7c6c7170720)
+![슬라이드7](https://github.com/mansa97/KDT-4/assets/64315458/0567d9c4-58f6-496e-aa52-6460700506d5)
+![슬라이드8](https://github.com/mansa97/KDT-4/assets/64315458/ce1e3c6b-3000-4902-969b-df0dc5dee02e)
+![슬라이드9](https://github.com/mansa97/KDT-4/assets/64315458/85cca0d2-7bd6-4bd4-9741-b020b418c2bc)
+![슬라이드10](https://github.com/mansa97/KDT-4/assets/64315458/a86f2ea9-bf2b-421e-96a3-c7d73ecca81f)
+![슬라이드11](https://github.com/mansa97/KDT-4/assets/64315458/66e1ba48-799b-4043-85ad-447a9562a729)
+![슬라이드12](https://github.com/mansa97/KDT-4/assets/64315458/ee53fb9f-2fb4-44de-9153-d6b341426113)
+
 
 
 
